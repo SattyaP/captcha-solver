@@ -26,7 +26,7 @@ const main = async (keyword) => {
     })
 
     if (api) {
-        await page.goto('chrome-extension://nlgmghilgmblaebjpcfeodkeaffkifml/src/options/index.html', {
+        await page.goto('chrome-extension://cmcjjblfgagdjpajlpeomnaildnopppp/src/options/index.html', {
             waitUntil: ['networkidle2', 'domcontentloaded'],
             timeout: 120000
         })
@@ -46,7 +46,7 @@ const main = async (keyword) => {
         fieldApi && await fieldApi.type('YXXP7NHK3HBMWCGU22RJOED3L2XPX3X6')
     }
 
-    await page.goto('https://www.google.com/recaptcha/api2/demo', {
+    await page.goto('https://www.google.com/', {
         waitUntil: ['networkidle2', 'domcontentloaded'],
         timeout: 120000
     })
