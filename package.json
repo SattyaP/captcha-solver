@@ -1,0 +1,24 @@
+{
+  "name": "solver-captcha",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SattyaP/captcha-solver.git"
+  },
+  "author": "Alsav System",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SattyaP/captcha-solver/issues"
+  },
+  "homepage": "https://github.com/SattyaP/captcha-solver#readme",
+  "dependencies": {
+    "path": "^0.12.7",
+    "puppeteer": "^21.7.0",
+    "puppeteer-extra": "^3.3.6"
+  }
+}
