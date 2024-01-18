@@ -18,6 +18,7 @@
   },
   "homepage": "https://github.com/SattyaP/captcha-solver#readme",
   "dependencies": {
+    "fs": "^0.0.1-security",
     "path": "^0.12.7",
     "puppeteer": "^21.7.0",
     "puppeteer-extra": "^3.3.6"

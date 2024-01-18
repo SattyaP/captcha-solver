@@ -90,10 +90,10 @@ async function solveCaptcha(page) {
                                     await solverButton.click();
                                     await sleep(10000);
                                     console.log("Solved ✅");
-                                    resolve(); // Resolve the promise when operations are completed
+                                    resolve();
                                 } catch (error) {
                                     console.error('Error clicking the button:', error.message);
-                                    reject(error); // Reject the promise if there's an error
+                                    reject(error);
                                 }
                             } else {
                                 console.error('Button not found in the iframe body.');
@@ -156,4 +156,3 @@ const proc = async () => {
 }
 
 proc()
-// main()
